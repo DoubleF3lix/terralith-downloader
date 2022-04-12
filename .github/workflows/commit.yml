@@ -1,8 +1,6 @@
-name: Release
+name: Commit or Pull Request
 
-on:
-  release:
-    types: [published]
+on: [push, pull_request]
 
 jobs:
   main:
